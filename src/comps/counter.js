@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Counter extends Component {
-    state = { myDate: "2055-12-25", days: 999 };
+    state = { myDate: "2065-12-25", days: 999 };
 
     componentDidMount() {
         var daysLeft = this.calcDaysFromDate(this.props.appDate2);
